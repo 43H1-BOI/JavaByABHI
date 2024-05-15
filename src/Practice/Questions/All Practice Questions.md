@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Practice questions for Java</title>
+
 </head>
 <body>
 <h1>All Practice Questions and Their Solutions</h1>
