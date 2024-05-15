@@ -1,3 +1,8 @@
+<html>
+<head>
+    <title>Practice questions for Java</title>
+</head>
+<body>
 <h1>All Practice Questions and Their Solutions</h1>
 <br><br><br>
 <h2>Chapter 1 : Basics of Java</h2>
@@ -39,3 +44,5 @@ Write a program that takes a character as input and prints
 -1, if the character is not an alphabet.
 </p>
 <a href="https://www.codingninjas.com/studio/problems/find-character-case_58513?">Question Link</a>
+</body>
+</html>
