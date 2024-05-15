@@ -1,0 +1,10 @@
+
+---> Naming Conventions
+For Classes We use Pascal Naming Convention --> Randoms.HelloWorld
+For Functions We use Camel Case Conventions --> helloWorld
+
+--> Anatomy
+1. Documentation -> Suggestions
+2. P
+
+
