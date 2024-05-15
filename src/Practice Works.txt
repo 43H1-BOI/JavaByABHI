@@ -1,3 +1,0 @@
-<h1>Basic Questions</h1>
-1. Print "Hello World" <br>
-2. 

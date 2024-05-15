@@ -5,6 +5,5 @@ For Functions We use Camel Case Conventions --> helloWorld
 
 --> Anatomy
 1. Documentation -> Suggestions
-2. P
 
 

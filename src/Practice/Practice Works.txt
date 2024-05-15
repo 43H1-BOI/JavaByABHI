@@ -1,0 +1,7 @@
+<h1>Basic Questions</h1>
+1. Print "Hello World"
+2. Sum of Two Numbers
+3. Data Types in Java
+4. Getting Input from user
+5. Operators in Java
+6. Precedence and Associativity
