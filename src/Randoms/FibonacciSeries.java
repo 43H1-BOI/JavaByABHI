@@ -41,7 +41,7 @@ public class FibonacciSeries {
         System.out.println("Program to Generate Fibonacci Series :: ");
         System.out.print("Enter Count of Fibonacci Series :: ");
         int count = Sc.nextInt();
-//        Fibb(count);
-//        FibbRecursion(count,1);
+        Fibb(count);
+        //FibbRecursion(count,1);
     }
 }
