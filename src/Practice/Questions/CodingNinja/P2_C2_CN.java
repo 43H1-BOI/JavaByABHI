@@ -1,6 +1,9 @@
 package Practice.Questions;
 
 import java.util.*;
+
+import static java.lang.Math.max;
+
 /*
  Write a program that takes three numbers a,b, and c
  as input and prints the largest number amongst them.
