@@ -1,0 +1,41 @@
+String :: It is a Char type Array but contains some Functionalities that Array doesn't have
+it has indexing and is immutable and hence it is somewhat efficient and somewhat not
+
+Syntax : 
+String str = ("hello");
+
+contains() --> Checks whether a string contains in another string or not
+String str = "anything";
+boolean contain = str.contains("any"); // this will be true
+// can only give string
+
+
+startsWith() --> Checks whether a string starts with string or not
+
+endsWith() --> Checks whether a string ends with string or not
+
+toLowerCase() --> Converts whole string into Lower Case
+
+toUpperCase() --> Converts whole string into Upper Case
+
+concat() --> To add two strings and store it in another string
+str1.concat(str2); //
+
+
+substring(i,j) --> gives substring from index i to (j-1)
+substring(i); --> gives substring from index i to end of string
+
+
+StringBuilder :: It is Advance Form of Strings which provides more flexibility to use Strings in Java
+
+Syntax : 
+StringBuilder str = new StringBuilder("hello");
+
+Functionalities in String Builder :-
+
+setCharAt(index,ch) --> Swaps the Char at the given Index to the Char given
+append(ch) --> Appends char or string to the end of the String
+insert(index,ch) --> shifts index and insert char
+deleteCharAt(index) --> Deletes Char at the Given Index
+reverse() --> reverse the String
+delete(start,end+1) --> Deletes the char from start index to end index
