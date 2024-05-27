@@ -54,7 +54,7 @@ public class stringMethods {
         boolean subStringStartsWith = name.startsWith("Ab");
         System.out.println(subStringStartsWith);
 
-        */
+
         // To Check Weather a String Ends with Given char or Not
         System.out.println("\nTo Check Weather a String Ends with Given char or Not :- \nname.endsWith(\"av\")");
         boolean subStringEndsWith = name.endsWith("av");
@@ -75,8 +75,18 @@ public class stringMethods {
         System.out.println("\nTo Get Index of Specific Character from the given Index in the String :- \nname.indexOf('a')");
         int StringFromIndexOf = name.indexOf(3,'a');
         System.out.println(StringFromIndexOf);
+        */
 
-        // To Get
+        // To Get Index of Last Char in the String
+        System.out.println("\nTo Get Index of Last Specific Character in the String :- \nname.lastIndexOf('a')");
+        int IndexOfLastCh = name.lastIndexOf('a');
+        System.out.println(IndexOfLastCh);
+
+
+        // To Get Index of any Char from given Last Index
+        System.out.println("\nTo Get Index of Last Specific Character Before the Given Index in the String :- \nname.lastIndexOf('a')");
+        int StringFromLastIndex = name.lastIndexOf('a',11);
+        System.out.println(StringFromLastIndex);
 
 
 

@@ -6,7 +6,7 @@
 4. Getting Input from user
 5. Operators in Java
 6. Precedence and Associativity
-7. 
+7. Conditional Statements
 8. Array
 9. String and StringBuilder
 10. 
