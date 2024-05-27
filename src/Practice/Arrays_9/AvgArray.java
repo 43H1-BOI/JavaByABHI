@@ -1,4 +1,4 @@
-package Practice.Arrays_8;
+package Practice.Arrays_9;
 
 import java.util.*;
 

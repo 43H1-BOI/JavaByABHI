@@ -1,6 +1,4 @@
-package Practice.String_9;
-
-import java.util.*;
+package Practice.String_10;
 
 //Input s = "abcd"
 //Output a ab abc abcd b bc bcd c cd d

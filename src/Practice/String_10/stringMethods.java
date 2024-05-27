@@ -1,4 +1,4 @@
-package Practice.String_9;
+package Practice.String_10;
 
 public class stringMethods {
     public static void main(String[] args) {
