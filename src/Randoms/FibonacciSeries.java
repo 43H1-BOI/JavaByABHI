@@ -6,6 +6,10 @@ import java.util.*;
 
 public class FibonacciSeries {
     public static void Fibb(int count) {
+        if (count == 1){
+            System.out.println("0 ");
+            return;
+        }
         int n1 = 0, n2 = 1, n3;
         System.out.println("Fibonacci Series ( " + count + " times )::");
         System.out.print(n1 + " " + n2);
