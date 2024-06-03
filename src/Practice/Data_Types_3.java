@@ -34,6 +34,8 @@ public class Data_Types_3 {
 
 
         // Literals means value after = sign
+        // 2^4 2^3 2^2 2^1 2^0
+        // 16   8   4   2   1
 
     }
 }

@@ -1,4 +1,4 @@
-package Practice;
+package Practice.String_10;
 
 import java.util.*;
 

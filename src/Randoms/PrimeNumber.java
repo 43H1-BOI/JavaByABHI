@@ -6,9 +6,17 @@ public class PrimeNumber {
     // Using function
     public static boolean Prime(int num){
         for ( int i = 2 ; i < num ; i++){
-            if (num % i == 0) return true;
+            if (num % i == 0) return false;
         }
-        return false ;
+        return true;
+    }
+
+    // Optimized Code
+    public static boolean optimizedPrime(int num) {
+        for (int i = 2; i < Math.sqrt(num); i++) {
+            if (num % i == 0) return false;
+        }
+        return true;
     }
 
     public static void main(String[] args) {
@@ -30,7 +38,7 @@ public class PrimeNumber {
         }
         */
         // Using Function
-        if (!Prime(num)) {
+        if (Prime(num)) {
             System.out.println("Given Number is Prime");
         } else {
             System.out.println("Given Number is Not Prime");
