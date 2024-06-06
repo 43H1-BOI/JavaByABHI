@@ -1,14 +1,14 @@
 # Topics Covered
 
-1.[ ] Basics
-2.[ ] Operators , Precedence and Associativity
-3.[ ] Pattern Printing
-4.[ ] Conditional Statements
-5.[ ] Loops
-6.[ ] Array
-7.[ ] String and StringBuilder
-8.[ ] Functions And Methods
-8.[ ] OOPS Concepts
+1.[ ] Basics <br>
+2.[ ] Operators , Precedence and Associativity <br>
+3.[ ] Pattern Printing <br>
+4.[ ] Conditional Statements <br>
+5.[ ] Loops <br>
+6.[ ] Array <br>
+7.[ ] String and StringBuilder <br>
+8.[ ] Functions And Methods <br>
+8.[ ] OOPS Concepts <br>
 9.[ ] 
 
 <hr>
