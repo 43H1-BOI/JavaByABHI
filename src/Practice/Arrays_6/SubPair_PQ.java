@@ -2,6 +2,7 @@ package Practice.Arrays_6;
 
 import java.util.Scanner;
 
+// Maximum Sum of SubPairs of Array
 public class SubPair_PQ {
     public static int[] getArr() {
         Scanner Sc = new Scanner(System.in);
@@ -24,17 +25,32 @@ public class SubPair_PQ {
         }
     }
 
-    public static void SubP(int[] arr) {
-        int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i; j < arr.length; j++) {
-                for (int k = i; k <= j; k++) {
-                    System.out.print("(" + arr[i] + "," + arr[j] + ") ");
 
+    public static int SubP(int[] arr) {
+        int maxSum = arr[0];
+//        int temp=0;
+        for (int i = 0; i < arr.length; i++) { //i = start
+            int currSum = 0;
+            for (int j = i; j < arr.length; j++) { // j = end
+                for (int k = i; k <= j; k++) {
+                    currSum += arr[k];
+                    System.out.print(arr[k] + " ");
+                    if (currSum >= maxSum) {
+                        maxSum = currSum;
+//                        temp=arr[i];
+                    }
                 }
                 System.out.println();
             }
+            System.out.println();
         }
+//        System.out.print(temp);
+        System.out.print("Maximum Sum of Pairs of SubArrays are : ");
+        return maxSum;
+    }
 
+    public static void main(String[] args) {
+        int[] arr = getArr();
+        System.out.println(SubP(arr));
     }
 }

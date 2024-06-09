@@ -1,4 +1,4 @@
-package Practice.Loops_5;
+package Practice.Patterns_3;
 
 public class Pattern_1 {
 
