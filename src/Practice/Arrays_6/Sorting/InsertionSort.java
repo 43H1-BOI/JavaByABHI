@@ -1,9 +1,8 @@
-package Randoms;
+package Practice.Arrays_6.Sorting;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class SortingArrayUsingFun {
+public class InsertionSort {
     public static int[] getArr() {
         Scanner Sc = new Scanner(System.in);
         System.out.print("Enter Size of Array : ");
@@ -24,17 +23,18 @@ public class SortingArrayUsingFun {
         }
     }
 
-
-    public static void main(String[] args) {
-        int[] arr = getArr();
-        Arrays.sort(arr);
-
-        System.out.println("Array Before Sorting :: ");
-        printArr(arr);
-
-        System.out.println("Array After Sorting :: ");
-        printArr(arr);
-
-
+    public static void Insertion(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            int temp = arr[i];
+            for (int j = i + 1; j < arr.length; j++) {
+                
+            }
+        }
     }
 }
+
+/*
+Insertion Sort -->
+We'll Put a element from Unsorted Array and then put it inside Sorted Array
+
+*/

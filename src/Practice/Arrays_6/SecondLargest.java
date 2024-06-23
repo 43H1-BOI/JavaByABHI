@@ -2,9 +2,10 @@ package Practice.Arrays_6;
 
 import java.util.Scanner;
 
-public class InsertionSort {
+public class SecondLargest {
+    static Scanner Sc = new Scanner(System.in);
+
     public static int[] getArr() {
-        Scanner Sc = new Scanner(System.in);
         System.out.print("Enter Size of Array : ");
         int x = Sc.nextInt();
         System.out.println("Enter Elements in Array :: ");
@@ -23,18 +24,34 @@ public class InsertionSort {
         }
     }
 
-    public static void Insertion(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            int temp = arr[i];
-            for (int j = i + 1; j < arr.length; j++) {
-                
+    public static int max(int[] arr) {
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
             }
         }
+        return max;
+    }
+
+    public static int SecMax(int[] arr) {
+        int max = max(arr);
+        for (int i = 0; i < arr.length; i++) {
+            if (max == arr[i]) {
+                arr[i] = Integer.MIN_VALUE;
+            }
+        }
+        return max(arr);
+    }
+
+    public static void main(String[] args) {
+        int[] arr = getArr();
+        printArr(arr);
+        int max = max(arr);
+        int max_2 = SecMax(arr);
+
+        System.out.println(max);
+        System.out.println(max_2);
+
     }
 }
-
-/*
-Insertion Sort -->
-We'll Put a element from Unsorted Array and then put it inside Sorted Array
-
-*/

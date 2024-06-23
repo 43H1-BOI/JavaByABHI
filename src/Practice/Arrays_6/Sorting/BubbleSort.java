@@ -1,4 +1,4 @@
-package Randoms;
+package Practice.Arrays_6.Sorting;
 
 import java.util.Scanner;
 

@@ -20,11 +20,15 @@
 3. Data Types in Java
 4. Taking Input from User
 
+<hr>
+
 # Operators,Precedence and Associativity
 
 1. Operators in Java
 2. Precedence
 3. Associativity
+
+<hr>
 
 # Pattern Printing
 
@@ -35,16 +39,13 @@
 
 # Conditional Statements
 
-1. Write a Java program that takes a year from the user and print whether that
-   year is a leap year or not.
-2. Write a Java program to input week number(1-7) and print day of week name
+1. Write a Java program to input week number(1-7) and print day of week name
    using switch case.
-3. Write a Java program that takes a number from the user and generates an integer between 1 and 7. It displays the
-   weekday name.
-4. To Check Whether a Number is Positive or Negative.
-5. Program to Solve Quadratic Equation.
-6. Program to Check Tax Eligibility
-7.
+2. Write a Java program that takes a year from the user and print whether that
+   year is a leap year or not.
+3. To Check Whether a Number is Positive or Negative.
+4. Program to Solve Quadratic Equation.
+5. Program to Check Tax Eligibility
 
 <hr>
 
@@ -54,23 +55,55 @@
    even and odd integers.
 2. Write a Program to find Factorial of any Numbers
 3. Program to Print Multiplication Table of Number
-4. Sum of n Even Integer
+4. Program to Print Reverse Multiplication Table of Number
+5. Sum of n Even Integer
 
 <hr>
 
 # Arrays
 
 1. Average of Elements of Array.
-2. Checking Duplicate Element in an Array.
-3. To Find Maximum and Minimum Element of Array.
-4. Program to Create a Copy of Array.
-5. Program to Find Sub Arrays of a Array
-6. Program to Find Sub Pairs of Array
-7. To Find Max Sum of Sub Array using Brute Force Method
-8. To Find Max Sum of Sub Array using Prefix Array Method
-9. To Rotate Array to it's Right n times
+2. Performing Binary Search
+3. Program to Create a Copy of Array.
+4. DSA TrappingWater Incomplete
+5. Kadane Algorithm (-ve = 0 else add)
+6. To Find Maximum and Minimum Element of Array.
+7. Number of Element Greater than Giver Number.
+8. Program to Find Sub Pairs of Array
+9. To Find Reverse of an Array
+10. To Rotate Array to it's Right n times
+11. Best Time to Buy and Sell Stocks
+12. To Find Max Sum of Sub Array using Brute Force Method
+13. To Find Max Sum of Sub Array using Prefix Array Method
+14. Program to Find Sub Pairs of a Array
+15. To Find Target Sum (Double)
+16. To Find Target Sum (Triple)
+
+## Sorting
+
+1. Bubble Sort
+2. Insertion Sort
+3. Selection Sort
+4. Sort() Method
+5.
+
+## 2D Array
+
+1. Find Element in Matrix
+2. Basic Functions of Matrix
+3. Max and Min Element of Matrix
+4. To Print Spiral Matrix
+
+<hr>
 
 # String and StringBuilder
+
+1. To Reverse a String
+2. String Builder and It's Methods
+3. String Methods
+4. SubStrings
+
+<hr>
 
 # Functions And Methods
 
@@ -98,5 +131,7 @@
    b. Find the last digit of the number
    c. Add it to the sum
    d. Repeat a & b until the number becomes 0 )
+
+<hr>
 
 # OOPS Concepts

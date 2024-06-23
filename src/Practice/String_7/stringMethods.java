@@ -6,7 +6,7 @@ public class stringMethods {
 
         System.out.println(name);
 
-        /*
+
         //To Get Length of String
         System.out.println("\nTo Get Length of String :- \nname.length()");
         int Length = name.length();
@@ -39,13 +39,13 @@ public class stringMethods {
 
         // To Print SubString from Beginning Index to Ending Index
         System.out.println("\nTo Print SubString from Beginning Index to Ending Index :- \nname.substring(3,8)");
-        String subStringEnd = name.substring(3,8);
+        String subStringEnd = name.substring(3, 8);
         System.out.println(subStringEnd);
 
 
         // To Replace the Elements and Return a new String
         System.out.println("\nTo Replace the Elements and Return a new String :- \nname.replace('A','B')");
-        String subStringReplace = name.replace('A','B');
+        String subStringReplace = name.replace('A', 'B');
         System.out.println(subStringReplace);
 
 
@@ -73,9 +73,9 @@ public class stringMethods {
 
         // To Get Index of Specific Character from The String
         System.out.println("\nTo Get Index of Specific Character from the given Index in the String :- \nname.indexOf('a')");
-        int StringFromIndexOf = name.indexOf(3,'a');
+        int StringFromIndexOf = name.indexOf(3, 'a');
         System.out.println(StringFromIndexOf);
-        */
+
 
         // To Get Index of Last Char in the String
         System.out.println("\nTo Get Index of Last Specific Character in the String :- \nname.lastIndexOf('a')");
@@ -85,10 +85,15 @@ public class stringMethods {
 
         // To Get Index of any Char from given Last Index
         System.out.println("\nTo Get Index of Last Specific Character Before the Given Index in the String :- \nname.lastIndexOf('a')");
-        int StringFromLastIndex = name.lastIndexOf('a',11);
+        int StringFromLastIndex = name.lastIndexOf('a', 11);
         System.out.println(StringFromLastIndex);
 
 
+        // To Perform concat() Method
+        String first = "Abhi";
+        String last = "Yadav";
+        String fullName = first.concat(last);
+        System.out.println(fullName);
 
 
     }
