@@ -3,7 +3,7 @@ package Practice.Arrays_6;
 import java.util.Scanner;
 
 //Program to check if an array can be partitioned into sub-arrays with equal sum
-public class PartitionSumIn {
+public class PartitionSum {
     static Scanner Sc = new Scanner(System.in);
 
     public static int[] getArr() {
