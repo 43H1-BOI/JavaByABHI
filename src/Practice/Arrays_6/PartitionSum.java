@@ -30,8 +30,8 @@ public class PartitionSum {
         boolean cond = false; //kinda flag
         int part = 1; // partition is starting from 1st index b'coz common sense
         int n = arr.length; // length of array
-        int pSum = 0; // prefix Sum
-        int sSum = 0; // suffix Sum
+        int pSum, sSum; // prefix Sum & suffix Sum
+
 
         while (part < n) { // partition < size of array
             pSum = 0;
