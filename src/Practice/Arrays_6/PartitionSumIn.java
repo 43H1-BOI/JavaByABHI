@@ -27,42 +27,56 @@ public class PartitionSumIn {
     }
 
     public static boolean partitionSum(int[] arr) {
-        boolean cond = false; //main condition
-        int part = 1; // partition
+        boolean cond = false; //kinda flag
+        int part = 1; // partition is starting from 1st index b'coz common sense
         int n = arr.length; // length of array
+        int pSum = 0; // prefix Sum
+        int sSum = 0; // suffix Sum
 
         while (part < n) { // partition < size of array
-            int pSum = 0; // prefix Sum
-            int sSum = 0; // suffix Sum
-            int j = 0; // temp variable
+            pSum = 0;
+            sSum = 0;
+            int j = 0; // pSum Variable
 
+            // pSum must run till partition index (-1)
             while (j < part) {
                 pSum += arr[j];
                 j++;
-            }
-            System.out.println("p" + pSum);
+            } // Prefix Sum Found
+            System.out.println("Prefix Sum = " + pSum);
 
-            int i = part;
+            // sSum must starts from partition index to end of array
+            int i = part; // temp variable for sSUm
             while (i < n) {
                 sSum += arr[i];
                 i++;
-            }
-            System.out.println("s" + sSum);
-            part++;
+            } // Suffix Sum Found
+            System.out.println("Suffix Sum = " + sSum);
 
+            // This Condition will be Checked only once to save our resources
+            if (part == 1) {
+                // This Condition means if Partition Sum Exists for any array then
+                // it will not follow below condition
+                float avg = (float) ((pSum + sSum) % 2);
+                if (avg != 0) {
+                    System.out.println("Sorry Mitr");
+                    return cond;
+                }
+                // This Condition just says if partition sum exists then sum of pSum and sSum must be an even number
+            }
+
+
+            // This Checks if Partition Sum found then will return true
             if (pSum == sSum) {
                 cond = true;
-                System.out.println("Index of i = " + part);
-                return cond;
-            }
-            float avg = (float) ((pSum + sSum) % 2);
-            if (avg != 0) {
+                System.out.println("Index of Partition = " + part);
                 return cond;
             }
 
+            part++; // Partition Index Moved 1 Step Forward if No Partition Sum Found
         }
 
-        return cond;
+        return cond; // means no partition found
     }
 
     public static void main(String[] args) {
