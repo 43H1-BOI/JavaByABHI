@@ -1,11 +1,8 @@
 package Practice.Arrays_6.Arr_2D;
 
-import java.util.*;
-import java.lang.*;
+import java.util.Scanner;
 
-//import java.util.Scanner;
-
-public class Matrix {
+public class TransposeMatrix {
     static Scanner Sc = new Scanner(System.in);
 
     public static int[][] getMat() {
@@ -34,8 +31,23 @@ public class Matrix {
         }
     }
 
+    public static int[][] Transpose(int[][] mat) {
+        int r = mat.length;
+        int c = mat[0].length;
+        int[][] transpose = new int[c][r];
+        for (int i = 0; i < c; i++) {
+            for (int j = 0; j < r; j++) {
+                transpose[i][j] = mat[j][i];
+            }
+        }
+        return transpose;
+    }
+
+
     public static void main(String[] args) {
-        int[][] matrix = getMat();
-        printMat(matrix);
+        int[][] mat = getMat();
+        printMat(mat);
+
+        printMat(Transpose(mat));
     }
 }
