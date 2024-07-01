@@ -2,7 +2,7 @@ package Practice.Arrays_6;
 
 import java.util.Scanner;
 
-public class PrefixSum {
+public class PrefixSumIn {
     static Scanner Sc = new Scanner(System.in);
 
     public static int[] getArr() {
