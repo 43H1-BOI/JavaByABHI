@@ -23,13 +23,32 @@ public class InsertionSort {
         }
     }
 
-    public static void Insertion(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            int temp = arr[i];
-            for (int j = i + 1; j < arr.length; j++) {
-                
+    public static int[] Insertion(int[] arr) {
+        for (int i = 1; i < arr.length; i++) {
+//            System.out.println("At i = " + i);
+            int curr = arr[i];
+            System.out.println("Curr = " + curr);
+            int prev = i - 1;
+            System.out.println("Prev = " + prev);
+            while (prev >= 0 && arr[prev] > curr) {
+                System.out.println("");
+                arr[prev + 1] = arr[prev];
+                System.out.println("arr[" + (prev + 1) + " = " + arr[prev]);
+//                System.out.println("At prev = " + arr[prev]);
+                prev--;
             }
+            arr[prev + 1] = curr;
+            /*
+            for (int j = i - 1; j >= 0; j--) {
+                if (arr[j] > curr) {
+                    arr[j + 1] = arr[j];
+                }
+            }
+            */
+//            printArr(arr);
+//            System.out.println();
         }
+        return arr;
     }
 }
 
