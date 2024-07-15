@@ -6,7 +6,7 @@ public class Clear_ith_Bit {
     static Scanner Sc = new Scanner(System.in);
 
     public static int Clear_ith_bit(int num, int i) {
-//        System.out.println("Program to Get ith Bit :: ");
+//        System.out.println("Program to Clear ith Bit :: ");
         return (num & (~(1 << i)));
     }
 
