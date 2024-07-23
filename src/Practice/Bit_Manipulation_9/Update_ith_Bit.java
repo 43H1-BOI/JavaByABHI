@@ -29,7 +29,7 @@ public class Update_ith_Bit {
 //        } else if (newBit == 1) {
 //            return Set_ith_bit(num, i);
 //        } else if (newBit == 0) {
-//            return Clear_ith_bit(num, i);
+//            return Checking(num, i);
 //        }
 //        } else {
 //            return Integer.parseInt("Wrong Input");
