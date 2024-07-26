@@ -1,0 +1,35 @@
+Abstraction :-
+
+Data abstraction is the process of hiding certain details and showing only essential information to the user.
+Abstraction can be achieved with either abstract classes or interfaces
+OR
+Hiding all the unnecessary details and showing only important parts to the user.
+OR
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+
+Two Types :-
+    1. Abstract Class --> 0-100% Abstraction
+    2. Interfaces --> Total Abstraction
+
+Abstract Class :-
+     A class which is declared with the abstract keyword is known as an abstract class in Java.
+     It can have abstract and non-abstract methods (method with the body).
+     The main motive of Abstract class is to Bind up all the Important methods and data members in a single class and then
+     reuse them in child class.
+
+     * Objects of Abstract Class Cannot be Created
+     * Methods can be Abstract or Non-Abstract
+     * Abstract Methods can be defined only inside abstract class and then defined in child class
+
+
+Interface :-
+    Class is blueprint of Object.
+    Interface is a Blueprint of a Class
+    It is used to perform Multiple Inheritance
+    It helps in achieving Total Abstraction.
+
+Basic Properties :-
+    * Defined by "interface" keyword
+    * To inherit we use implement keyword whereas we use extends keyword during inheritance
+    * Variable in the interface are final , public and static
+    * Used to achieve total Inheritance

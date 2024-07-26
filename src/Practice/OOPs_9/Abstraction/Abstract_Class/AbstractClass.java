@@ -1,6 +1,6 @@
-package Practice.OOPs_9.Abstraction;
+package Practice.OOPs_9.Abstraction.Abstract_Class;
 
-public class Abstract_Class {
+public class AbstractClass {
 
 
     public static void main(String[] args) {
