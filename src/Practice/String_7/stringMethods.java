@@ -50,7 +50,7 @@ public class stringMethods {
 
 
         // To Check Weather a String Starts with Given char or Not
-        System.out.println("\nTo Replace the Elements and Return a new String :- \nname.startsWith(\"Ab\")");
+        System.out.println("\nTo Check Weather a String Starts with Given char or Not :- \nname.startsWith(\"Ab\")");
         boolean subStringStartsWith = name.startsWith("Ab");
         System.out.println(subStringStartsWith);
 
@@ -60,10 +60,12 @@ public class stringMethods {
         boolean subStringEndsWith = name.endsWith("av");
         System.out.println(subStringEndsWith);
 
+
         // To Get the Element from Given Index
         System.out.println("\nTo Get the Element From Given Index :- \nname.charAt(0)");
         char StringCharAt = name.charAt(0);
         System.out.println(StringCharAt);
+
 
         // To Get Index of Specific Character from The String
         System.out.println("\nTo Get Index of Specific Character from The String :- \nname.indexOf('a')");
@@ -71,9 +73,10 @@ public class stringMethods {
         System.out.println(StringIndexOf);
         // If  Char is not Present then it returns -1
 
+
         // To Get Index of Specific Character from The String
-        System.out.println("\nTo Get Index of Specific Character from the given Index in the String :- \nname.indexOf('a')");
-        int StringFromIndexOf = name.indexOf(3, 'a');
+        System.out.println("\nTo Get Index of Specific Character from the given Index in the String :- \nname.indexOf('a',3)");
+        int StringFromIndexOf = name.indexOf('a', 3);
         System.out.println(StringFromIndexOf);
 
 
